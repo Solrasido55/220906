@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    background-color: hwb(181 11% 59% / 0.763);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.table-container {
+    width: 80%;
+    height: 600px;
+    margin: 10% auto auto auto;
+}
+
+.table-header {
+    margin-top: 10px;
+    width: 100%;
+    height: 75px;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+.table-header h4 {
+    color: #282887;
+    font-size: 25px;
+    margin:0px;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    color:hwb(181 11% 59% / 0.763);
+}
+
+th, td {
+    border-bottom: 1px solid hwb(181 11% 59% / 0.763);
+    padding: 15px;
+}
+
+tr {
+    line{border-bottom: 1px solid hwb(181 11% 59% / 0.763);}
+    border-color: hwb(181 11% 59% / 0.763);
+}
+.img1 {
+    width: 150px;
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.table-text {
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    color: hwb(181 11% 59% / 0.763);
+
+}
+
+.table-td {
+    vertical-align: middle;
+}
+
+.align-right {
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.total {
+    font-size: 15px;
+    margin: 0px 0px 0px 0px;
+    color: #282887;
+    font-weight: bold;
+}
+
+.total-price {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    color: #282887;
+    font-weight: bold;
+    padding: 25px;
+    border-bottom: none;
+}
+
+.table-footer {
+    margin-top: 15px;
+    vertical-align: middle;
+    height: 60px;
+    width: 100%;
+    position: relative;
+}
+
+.table-footer a {
+    font-size: 20px;
+    position: absolute;
+    left:0px;
+    top: 20px;
+}
+
+.footer-btn {
+    border: none;
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background-color: #282887;
+    font-size: 15px;
+    color: white;
+    font-weight: 50;
+    cursor: pointer;
+}
+
+.footer-btn:hover {
+    background-color: hsl(240, 54%, 46%);
+}
+
+.footer-btn:focus {
+    background-color: gray;
+}
+
+.footer-btn:active {
+    background-color: aqua;
+}
